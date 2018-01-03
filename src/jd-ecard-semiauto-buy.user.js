@@ -82,7 +82,7 @@ const PAY_PW = '';
                         let status = elem.querySelector('.status .order-status').textContent.trim();
                         if (
                             date === todayDate
-                            && title.slice(0, 3) === '自定义'
+                            && title.slice(0, 4) === '京东E卡'
                             && status === '已完成'
                         ) {
                             let href = elem.querySelector('.status a').getAttribute('href');
